@@ -124,10 +124,6 @@ Created database `olist_ecommerce` and analyzed:
 ```
 olist-ecommerce-analytics/
 │
-├── data/
-│   ├── raw/                  # Original CSV files from Kaggle
-│   └── cleaned/              # Excel cleaned files
-│
 ├── sql/
 │   └── analysis_queries.sql  # All 10 SQL analysis queries
 │
@@ -145,6 +141,9 @@ olist-ecommerce-analytics/
 ---
 
 ## How to Run
+### Data:
+Download dataset from Kaggle:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ### SQL Setup:
 ```sql
@@ -173,4 +172,5 @@ Data Analytics Portfolio Project
 
 ## License
 This project is for educational and portfolio purposes only.
+
 Dataset sourced from Kaggle under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
